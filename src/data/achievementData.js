@@ -1,5 +1,5 @@
 export const achievementData = {
-  bio: "I started my undergraduate days without having any clue about CSE. I am not good at communication skills, not good at Coding, and not interactive in club activities. But, After completion of my first year, I realized that I should change the approach to improving my technical and communication skills. I started Learning Web Development skills and started applying for Internships. Then, at the beginning of the third year, I started taking leadership roles in club activities which helped me to improve my communication skills and technical knowledge.",
+  bio: "When I began my undergraduate journey, I had little knowledge about Computer Science and limited communication skills. However, after my first year, I realized the need to challenge myself and grow both technically and personally.I proactively learned Web Development, started applying for internships, and steadily built my technical foundation. Entering my third year, I took on leadership roles in club activities, which helped me significantly improve my communication skills, teamwork, and technical expertise. Today, I continue to embrace learning, leadership, and personal development, always striving to be better than yesterday",
   achievements: [
     {
       id: 1,
@@ -14,7 +14,7 @@ export const achievementData = {
       id: 2,
       title: "Android Study Jam Facilitator",
       details:
-        "As an Android Study Jam Facilitator I conducted sessions on Android and earned all badges in the Developer Profile",
+        "As an Android Study Jam Facilitator and I conducted sessions on Android and earned all badges in the Developer Profile",
       date: "Dec, 2021",
       field: "App Dev",
       image:
@@ -24,7 +24,7 @@ export const achievementData = {
       id: 3,
       title: "GDSC APP Dev Lead",
       details:
-        "I am Lead For App Development In GDSC IIIT Sri City. I do Sessions and Guide students in App Development",
+        "I am the lead For App Development In GDSC IIIT Sri City. I did sessions and guided students in App Development",
       date: "Sep, 2021",
       field: "GDSC",
       image:

@@ -7,11 +7,16 @@ import {
     BsColumnsGap,
 } from "react-icons/bs";
 import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
+import { FaBrain, FaRobot, FaLaptopCode } from "react-icons/fa";
+import { TbDeviceDesktopAnalytics } from "react-icons/tb";
 import {
     AiOutlineMobile,
     AiOutlineDesktop,
     AiFillDatabase,
-} from "react-icons/ai";
+
+}
+
+ from "react-icons/ai";
 import {
     FaInternetExplorer,
     FaChalkboardTeacher,
@@ -40,7 +45,12 @@ export const servicesData = [
     },
     {
         id: 0,
-        title: "Flutter",
-        icon: <AiOutlineMobile />,
+        title: "AI/ML Model Deployment",
+        icon: <FaBrain />,
     },
+    {
+        id: 4,
+        title: "Data Science and Analytics",
+        icon: <TbDeviceDesktopAnalytics />
+    }
 ];

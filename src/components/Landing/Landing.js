@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import { Button } from "@material-ui/core";
+import { Button } from "@mui/material";   // 🔥 Correct MUI import
 import { NavHashLink as NavLink } from "react-router-hash-link";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@mui/styles"; // 🔥 Correct MUI styles
 
 import "./Landing.css";
 import { ThemeContext } from "../../contexts/ThemeContext";
@@ -10,56 +10,55 @@ import { socialsData } from "../../data/socialsData";
 
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
+const useStyles = makeStyles(() => ({
+  resumeBtn: (theme) => ({
+    color: theme.primary,
+    borderRadius: "30px",
+    textTransform: "inherit",
+    textDecoration: "none",
+    width: "150px",
+    fontSize: "1rem",
+    fontWeight: "500",
+    height: "50px",
+    fontFamily: "var(--primaryFont)",
+    border: `3px solid ${theme.primary}`,
+    transition: "100ms ease-out",
+    "&:hover": {
+      backgroundColor: theme.tertiary,
+      color: theme.secondary,
+      border: `3px solid ${theme.tertiary}`,
+    },
+    "@media (max-width:600px)": {
+      width: "180px",
+    },
+  }),
+  contactBtn: (theme) => ({
+    backgroundColor: theme.primary,
+    color: theme.secondary,
+    borderRadius: "30px",
+    textTransform: "inherit",
+    textDecoration: "none",
+    width: "150px",
+    height: "50px",
+    fontSize: "1rem",
+    fontWeight: "500",
+    fontFamily: "var(--primaryFont)",
+    border: `3px solid ${theme.primary}`,
+    transition: "100ms ease-out",
+    "&:hover": {
+      backgroundColor: theme.secondary,
+      color: theme.tertiary,
+      border: `3px solid ${theme.tertiary}`,
+    },
+    "@media (max-width:600px)": {
+      display: "none",
+    },
+  }),
+}));
+
 function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
-
-  const useStyles = makeStyles((t) => ({
-    resumeBtn: {
-      color: theme.primary,
-      borderRadius: "30px",
-      textTransform: "inherit",
-      textDecoration: "none",
-      width: "150px",
-      fontSize: "1rem",
-      fontWeight: "500",
-      height: "50px",
-      fontFamily: "var(--primaryFont)",
-      border: `3px solid ${theme.primary}`,
-      transition: "100ms ease-out",
-      "&:hover": {
-        backgroundColor: theme.tertiary,
-        color: theme.secondary,
-        border: `3px solid ${theme.tertiary}`,
-      },
-      [t.breakpoints.down("sm")]: {
-        width: "180px",
-      },
-    },
-    contactBtn: {
-      backgroundColor: theme.primary,
-      color: theme.secondary,
-      borderRadius: "30px",
-      textTransform: "inherit",
-      textDecoration: "none",
-      width: "150px",
-      height: "50px",
-      fontSize: "1rem",
-      fontWeight: "500",
-      fontFamily: "var(--primaryFont)",
-      border: `3px solid ${theme.primary}`,
-      transition: "100ms ease-out",
-      "&:hover": {
-        backgroundColor: theme.secondary,
-        color: theme.tertiary,
-        border: `3px solid ${theme.tertiary}`,
-      },
-      [t.breakpoints.down("sm")]: {
-        display: "none",
-      },
-    },
-  }));
-
-  const classes = useStyles();
+  const classes = useStyles(theme);
 
   return (
     <div className="landing">
@@ -97,16 +96,17 @@ function Landing() {
               </a>
             )}
             {socialsData.instagram && (
-              <a href={socialsData.blogger} target="_blank" rel="noreferrer">
+              <a href={socialsData.instagram} target="_blank" rel="noreferrer">
                 <FaInstagram
                   className="landing--social"
                   style={{ color: theme.secondary }}
-                  aria-label="Blogger"
+                  aria-label="Instagram"
                 />
               </a>
             )}
           </div>
         </div>
+
         <img
           src={headerData.image}
           alt=""
@@ -116,6 +116,7 @@ function Landing() {
             borderColor: theme.secondary,
           }}
         />
+
         <div
           className="landing--container-right"
           style={{ backgroundColor: theme.secondary }}
@@ -128,7 +129,7 @@ function Landing() {
             <div className="lcr-buttonContainer">
               {headerData.resumePdf && (
                 <a
-                  href="https://drive.google.com/file/d/1S2vxmhbk2K34VDW2adRThqC15333GAwK/view?usp=sharing"
+                  href={headerData.resumePdf}
                   target="_blank"
                   rel="noreferrer"
                 >
