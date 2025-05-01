@@ -1,14 +1,9 @@
 import blogsite from "../assets/svg/projects/image.png";
-import devconnection from "../assets/svg/projects/devconnection.svg";
-import hospitals from "../assets/svg/projects/hospitals.svg";
 import pharms from "../assets/svg/projects/bw.png";
-import musicPlayer from "../assets/svg/projects/musicPlayer.svg";
-import meetups from "../assets/svg/projects/meetups.svg";
-import selfAssessment from "../assets/svg/projects/self-assessment.svg";
 import snake from "../assets/svg/projects/snake.svg";
 import rainfall from "../assets/svg/projects/rainfall.svg";
 import vr from "../assets/svg/projects/robot-assistant.png";
-import nsr from "../assets/svg/projects/NSR.svg";
+
 export const projectsData = [
     {
         id: 11,
