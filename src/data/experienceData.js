@@ -15,10 +15,10 @@ export const experienceData = [
     },
     {
         id: 5,
-        company: "Tech Innovators Inc",
-        jobtitle: "Software Developer Intern",
-        startYear: "August 2022",
-        endYear: "December 2022",
+        company: "Dunzo",
+        jobtitle: "Software Engineer - Backend Intern",
+        startYear: "January 2023",
+        endYear: "June 2023",
     },
     {
         id: 4,
