@@ -17,8 +17,8 @@ export const experienceData = [
         id: 5,
         company: "Coreline solutions",
         jobtitle: "Machine Learning Intern",
-        startYear: "January 2023",
-        endYear: "May 2023",
+        startYear: "October 2022",
+        endYear: "January 2023",
     },
     
     {
