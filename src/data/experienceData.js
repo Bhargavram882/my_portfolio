@@ -13,22 +13,14 @@ export const experienceData = [
         startYear: "February 2023",
         endYear: "July 2023",
     },
-     {
-        id: 5,
-        company: "Coreline solutions",
-        jobtitle: "Machine Learning Intern",
-        startYear: "October 2022",
-        endYear: "January 2023",
-    },
-    
     {
         id: 4,
         company: "Artificial Intelligence Institute of South Carolina",
         jobtitle: "Research Intern",
         startYear: "January 2023",
-        endYear: "July 2023",
+        endYear: "June 2023",
     },
-    {
+     {
         id: 3,
         company: "Dunzo",
         jobtitle: "Software Engineer - Backend Intern",
@@ -42,4 +34,15 @@ export const experienceData = [
         startYear: "July 2022",
         endYear: "October 2022",
     },
+     {
+        id: 5,
+        company: "Coreline solutions",
+        jobtitle: "Machine Learning Intern",
+        startYear: "November 2021",
+        endYear: "August 2022",
+    },
+    
+    
+   
+    
 ];
