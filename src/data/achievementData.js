@@ -5,8 +5,7 @@ export const achievementData = {
       id: 1,
       title: "30 Days of Google Cloud",
       details:
-        "Partipated in 30 days of google cloud Programme where I got opportunity to explore GCP, completed Quests and earned some  fine goodies",
-      date: "Sep, 2021",
+        "Participated in the 30 Days of Google Cloud program, where I had the opportunity to explore Google Cloud Platform (GCP), complete various quests, and earn some exciting goodies",
       field: "Cloud ",
       image: "https://www.freecodecamp.org/news/content/images/2020/10/gcp.png",
     },
@@ -14,7 +13,7 @@ export const achievementData = {
       id: 2,
       title: "Android Study Jam Facilitator",
       details:
-        "As an Android Study Jam Facilitator and I conducted sessions on Android and earned all badges in the Developer Profile",
+        "As an Android Study Jam Facilitator, I conducted sessions on Android development and earned all the badges on my Google Developer Profile",
       date: "Dec, 2021",
       field: "App Dev",
       image:
@@ -24,7 +23,7 @@ export const achievementData = {
       id: 3,
       title: "GDSC APP Dev Lead",
       details:
-        "I am the lead For App Development In GDSC IIIT Sri City. I did sessions and guided students in App Development",
+        "I am the Lead for App Development in GDSC IIIT Sri City, where I conducted sessions and guided students in Android/App Development",
       date: "Sep, 2021",
       field: "GDSC",
       image:
