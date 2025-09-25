@@ -45,64 +45,7 @@ export const projectsData = [
         demo: "https://github.com/Bhargavram882/Image-Colorization.git",
         image: pharms,
     },
-    // {
-    //     id: 7,
-    //     projectName: "News Paper retrieval",
-    //     projectDesc:
-    //         " The main focus of this search engine is to collect over 30,000 documents that are relevant to the query entered by the user.",
-    //     tags: ["Web Scrapping", "python", "Indexing"],
-    //     code: "https://github.com/bannu0snake/News-Paper-Retrieval",
-    //     demo: "https://github.com/bannu0snake/News-Paper-Retrieval",
-    //     image: nsr,
-    // },
-    // {
-    //     id: 6,
-    //     projectName: "Best Hospitals and Doctors Tracker",
-    //     projectDesc:
-    //         "This project helps users to find best doctors and hospitals in their local aera. Users rate the medical facilities",
-    //     tags: ["Django", "PostgreSql"],
-    //     code: "https://github.com/bannu0snake/Hospital_Review_System",
-    //     demo: "https://github.com/bannu0snake/Hospital_Review_System",
-    //     image: hospitals,
-    // },
-    // {
-    //     id: 5,
-    //     projectName: "Dev Connect APIs",
-    //     projectDesc:
-    //         "This project Provides all the required APIs for a website where developers can create profile and post blogs",
-    //     tags: ["Node", "Express", "MongoDB"],
-    //     code: "https://github.com/bannu0snake/api-application",
-    //     demo: "https://github.com/bannu0snake/api-application",
-    //     image: devconnection,
-    // },
-    // {
-    //     id: 4,
-    //     projectName: "MeetUps app",
-    //     projectDesc: "A Simple web app with Next.js to uploud Meetups",
-    //     tags: ["Next Js", "React", "MongoDB"],
-    //     code: "https://github.com/bannu0snake/nextjs-app",
-    //     demo: "https://github.com/bannu0snake/nextjs-app",
-    //     image: meetups,
-    // },
-    // {
-    //     id: 3,
-    //     projectName: "Student Self Assessment Site",
-    //     projectDesc:
-    //         "The aim of this project that students can self assess their scores in the exam and can set goals and track their work",
-    //     tags: ["Django", "PostgreSql"],
-    //     code: "https://github.com/bannu0snake/SRIT-Website",
-    //     demo: "https://github.com/bannu0snake/SRIT-Website",
-    //     image: selfAssessment,
-    // },
-    // {
-    //     id: 2,
-    //     projectName: "Musical App",
-    //     projectDesc: "A simple stock market API app",
-    //     tags: ["JavaScript", "HTML", "Bootstrap"],
-    //     code: "https://github.com/bannu0snake/musical-site",
-    //     demo: "https://bannu0snake.github.io/musical-site/",
-    //     image: musicPlayer,
-    // },
+    
     {
         id: 1,
         projectName: "Snake Game",
@@ -113,19 +56,18 @@ export const projectsData = [
         demo: "https://github.com/bannu0snake/snake-game",
         image: snake,
     },
+     {
+        id: 2,
+        projectName: "Real-Time Audio Anomaly Detection",
+        projectDesc:
+            "Developed a self-supervised audio anomaly detection system using BYOL and machine learning to identify abnormal sounds in real time",
+        tags: ["Audio Processing", "Self-Supervised Learning", "Anomaly Detection"],
+        code: "https://github.com/Bhargavram882/audio-ssl-anomaly-detection",
+        demo: "https://github.com/Bhargavram882/audio-ssl-anomaly-detection",
+        image: snake,
+    },
+    
+    
 ];
 
-// Do not remove any fields.
-// Leave it blank instead as shown below
 
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/
