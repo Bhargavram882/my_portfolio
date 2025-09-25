@@ -3,6 +3,7 @@ import pharms from "../assets/svg/projects/bw.png";
 import snake from "../assets/svg/projects/snake.svg";
 import rainfall from "../assets/svg/projects/rainfall.svg";
 import vr from "../assets/svg/projects/robot-assistant.png";
+import antenna from "../assets/svg/projects/antenna.png"
 
 export const projectsData = [
     {
@@ -64,7 +65,7 @@ export const projectsData = [
         tags: ["Audio Processing", "Self-Supervised Learning", "Anomaly Detection"],
         code: "https://github.com/Bhargavram882/audio-ssl-anomaly-detection",
         demo: "https://github.com/Bhargavram882/audio-ssl-anomaly-detection",
-        image: snake,
+        image: antenna,
     },
     
     
